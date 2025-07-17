@@ -19,7 +19,6 @@ arraybutton.forEach((btn)=>{
         else if(e.target.innerHTML=="="){
             string=eval(string).toString();
             display.value=string;
-            string="";
         };
         else
         {
